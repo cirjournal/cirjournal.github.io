@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Author Guidelines | CIR Journal of Innovation &amp; Applied Research (CJIAR)</title>
+  <meta name="description" content="Author guidelines for CJIAR — manuscript formatting, structure, pre-submission checklist, referencing (APA 7th), plagiarism limits, and ethical requirements." />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: {
+          navy: { 50:'#eef4fb',100:'#d5e3f6',200:'#aec8ec',300:'#7fa5dd',400:'#4f80cb',500:'#3364b4',600:'#244f98',700:'#1c3f7b',800:'#16335f',900:'#0A2540',950:'#06182c' },
+          brand: { 50:'#effbfa',100:'#cbf4f1',200:'#9fe8e4',300:'#67d6d1',400:'#33bdba',500:'#14a3a1',600:'#0b8584',700:'#0e6a6a',800:'#115454',900:'#134646' }
+        },
+        fontFamily: { sans:['Inter','system-ui','sans-serif'], serif:['Lora','Georgia','serif'] },
+        boxShadow: { soft:'0 10px 40px -12px rgba(10,37,64,0.18)' }
+      } }
+    }
+  </script>
+  <style>
+    .nav-link { position: relative; }
+    .nav-link::after { content:''; position:absolute; left:0; bottom:-4px; height:2px; width:0; background:#33bdba; transition:width .25s ease; }
+    .nav-link:hover::after, .nav-link.active::after { width:100%; }
+    .prose-journal ul { list-style:disc; padding-left:1.25rem; }
+    .prose-journal ul li { margin-bottom:.4rem; }
+    .prose-journal ol { list-style:decimal; padding-left:1.25rem; }
+    .prose-journal ol li { margin-bottom:.4rem; }
+    .toc a.active { color:#0b8584; background:#effbfa; font-weight:600; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-700 font-sans antialiased">
+
+  <div class="bg-navy-950 text-navy-100 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <span class="inline-flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-brand-400"></span> Open Access</span>
+        <span class="hidden sm:inline">Peer-Reviewed</span>
+        <span class="hidden md:inline">Multidisciplinary</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <span>e-ISSN: Applied For</span>
+        <a href="mailto:submissions@cirjournal.org" class="hidden sm:inline hover:text-brand-300 transition">submissions@cirjournal.org</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="bg-navy-900 text-white sticky top-0 z-50 shadow-lg shadow-navy-950/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <img src="assets/img/logo.png" alt="CJIAR logo" class="h-12 w-12 object-contain drop-shadow" />
+          <div class="leading-tight">
+            <div class="font-serif font-bold text-base sm:text-lg tracking-wide group-hover:text-brand-300 transition">CJIAR</div>
+            <div class="text-[10px] sm:text-[11px] text-navy-200 uppercase tracking-wider">Journal of Innovation &amp; Applied Research</div>
+          </div>
+        </a>
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
+          <a href="index.html" class="nav-link text-navy-100 hover:text-white">Home</a>
+          <a href="about.html" class="nav-link text-navy-100 hover:text-white">About</a>
+          <a href="editorial-board.html" class="nav-link text-navy-100 hover:text-white">Editorial Board</a>
+          <a href="aim-scope.html" class="nav-link text-navy-100 hover:text-white">Aim &amp; Scope</a>
+          <div class="relative group">
+            <button class="nav-link active text-white inline-flex items-center gap-1">For Authors
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+              <div class="w-56 bg-white text-slate-700 rounded-lg shadow-soft border border-slate-100 py-2">
+                <a href="author-guidelines.html" class="block px-4 py-2 text-sm bg-brand-50 text-brand-700">Author Guidelines</a>
+                <a href="submission.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">Submit Manuscript</a>
+                <a href="fees.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">Publication Fees</a>
+              </div>
+            </div>
+          </div>
+          <div class="relative group">
+            <button class="nav-link text-navy-100 hover:text-white inline-flex items-center gap-1">Policies
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+              <div class="w-56 bg-white text-slate-700 rounded-lg shadow-soft border border-slate-100 py-2">
+                <a href="peer-review.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">Peer Review Policy</a>
+                <a href="publication-ethics.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">Publication Ethics</a>
+                <a href="policies.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">Journal Policies</a>
+              </div>
+            </div>
+          </div>
+          <a href="submission.html" class="ml-2 inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-white font-semibold px-4 py-2 rounded-md transition shadow">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+            Submit
+          </a>
+        </nav>
+        <button id="mobileToggle" class="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-navy-100 hover:text-white hover:bg-navy-800 transition" aria-label="Open menu">
+          <svg id="iconOpen" class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="iconClose" class="w-7 h-7 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="lg:hidden hidden border-t border-navy-800 bg-navy-900">
+      <div class="px-4 py-3 space-y-1 text-sm">
+        <a href="index.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Home</a>
+        <a href="about.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">About</a>
+        <a href="editorial-board.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Editorial Board</a>
+        <a href="aim-scope.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Aim &amp; Scope</a>
+        <div class="px-3 pt-3 pb-1 text-[11px] uppercase tracking-wider text-brand-300">For Authors</div>
+        <a href="author-guidelines.html" class="block px-3 py-2 rounded-md text-white bg-navy-800">Author Guidelines</a>
+        <a href="submission.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Submit Manuscript</a>
+        <a href="fees.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Publication Fees</a>
+        <div class="px-3 pt-3 pb-1 text-[11px] uppercase tracking-wider text-brand-300">Policies</div>
+        <a href="peer-review.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Peer Review Policy</a>
+        <a href="publication-ethics.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Publication Ethics</a>
+        <a href="policies.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Journal Policies</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE BANNER -->
+  <section class="relative bg-navy-900 overflow-hidden">
+    <div class="absolute inset-0 opacity-20"><img src="assets/img/hero.jpg" alt="" class="w-full h-full object-cover" /></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-900/80 to-navy-900/40"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <nav class="text-sm text-navy-200 mb-3 flex items-center gap-2">
+        <a href="index.html" class="hover:text-brand-300 transition">Home</a>
+        <svg class="w-3.5 h-3.5 text-navy-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <span class="text-brand-300">Author Guidelines</span>
+      </nav>
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-white">Author Guidelines</h1>
+      <p class="text-navy-100 mt-3 max-w-2xl">Everything you need to prepare and submit a manuscript to CJIAR.</p>
+    </div>
+  </section>
+
+  <main class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-4 gap-10">
+
+      <!-- TOC sidebar -->
+      <aside class="hidden lg:block lg:col-span-1">
+        <div class="sticky top-28">
+          <div class="text-xs uppercase tracking-wider text-slate-400 font-semibold mb-3">On this page</div>
+          <nav class="toc space-y-1 text-sm">
+            <a href="#formatting" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">Manuscript Formatting</a>
+            <a href="#structure" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">Manuscript Structure</a>
+            <a href="#checklist" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">Pre-Submission Checklist</a>
+            <a href="#files" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">File &amp; Document Format</a>
+            <a href="#author-info" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">Author Information</a>
+            <a href="#references" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">Reference Format</a>
+            <a href="#ethics" class="block px-3 py-1.5 rounded-md text-slate-600 hover:text-brand-600 hover:bg-brand-50">Ethical Requirements</a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Content -->
+      <div class="lg:col-span-3 space-y-14">
+
+        <!-- Formatting -->
+        <section id="formatting">
+          <h2 class="font-serif text-2xl font-bold text-navy-900 mb-5 flex items-center gap-3"><span class="h-8 w-1.5 bg-brand-500 rounded"></span> Manuscript Formatting</h2>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">File Format</div><div class="font-semibold text-navy-900">Microsoft Word (.doc / .docx)</div></div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">Language</div><div class="font-semibold text-navy-900">Clear English (UK or US, applied consistently)</div></div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">Length</div><div class="font-semibold text-navy-900">4,000 – 10,000 words</div><div class="text-xs text-slate-500 mt-1">Including references and tables</div></div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">Layout</div><div class="font-semibold text-navy-900">Times New Roman, 12pt</div><div class="text-xs text-slate-500 mt-1">1.5 line spacing · 1 inch margins</div></div>
+          </div>
+        </section>
+
+        <!-- Structure -->
+        <section id="structure">
+          <h2 class="font-serif text-2xl font-bold text-navy-900 mb-5 flex items-center gap-3"><span class="h-8 w-1.5 bg-brand-500 rounded"></span> Manuscript Structure</h2>
+          <div class="bg-white border border-slate-100 rounded-xl shadow-soft p-6">
+            <ol class="space-y-2.5 text-slate-600 list-none counter-reset">
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">1</span> <span><strong class="text-navy-900">Title</strong> — concise title, author names, institutional affiliations, and corresponding author email.</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">2</span> <span><strong class="text-navy-900">Abstract</strong> — a single paragraph (150–300 words) outlining the research problem, methodology, key findings, and practical implications.</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">3</span> <span><strong class="text-navy-900">Keywords</strong> — 4 to 6.</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">4</span> <span>Introduction</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">5</span> <span>Literature Review</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">6</span> <span>Methodology</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">7</span> <span>Results</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">8</span> <span>Discussion</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">9</span> <span>Conclusion</span></li>
+              <li class="flex gap-3 items-start"><span class="flex-shrink-0 h-6 w-6 rounded-full bg-navy-900 text-white text-xs flex items-center justify-center font-semibold">10</span> <span><strong class="text-navy-900">References</strong> — APA 7th Edition referencing.</span></li>
+            </ol>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4 mt-4">
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-5">
+              <h3 class="font-semibold text-navy-900 mb-2 flex items-center gap-2"><svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg> Plagiarism Limits</h3>
+              <ul class="text-sm text-slate-600 space-y-1">
+                <li>Overall similarity: <strong>less than 15%</strong></li>
+                <li>Single source: <strong>less than 3%</strong></li>
+              </ul>
+            </div>
+            <div class="bg-brand-50 border border-brand-100 rounded-xl p-5">
+              <h3 class="font-semibold text-navy-900 mb-2 flex items-center gap-2"><svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"/></svg> ORCID Requirement</h3>
+              <p class="text-sm text-slate-600">Authors are encouraged to provide ORCID IDs for accurate attribution and discoverability.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Checklist -->
+        <section id="checklist">
+          <h2 class="font-serif text-2xl font-bold text-navy-900 mb-5 flex items-center gap-3"><span class="h-8 w-1.5 bg-brand-500 rounded"></span> Pre-Submission Checklist</h2>
+          <p class="text-slate-600 mb-4">Before submitting, authors must ensure:</p>
+          <div class="bg-white border border-slate-100 rounded-xl shadow-soft overflow-hidden">
+            <table class="min-w-full text-sm">
+              <thead><tr class="bg-navy-900 text-white text-left"><th class="px-6 py-3 font-semibold">Requirement</th><th class="px-6 py-3 font-semibold w-28 text-center">Status</th></tr></thead>
+              <tbody class="divide-y divide-slate-100 text-slate-600">
+                <tr><td class="px-6 py-3">Original work, not previously published</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+                <tr><td class="px-6 py-3">Not under consideration elsewhere</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+                <tr><td class="px-6 py-3">All authors approved submission</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+                <tr><td class="px-6 py-3">Ethical standards met</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+                <tr><td class="px-6 py-3">Language is English</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+                <tr><td class="px-6 py-3">Format follows template</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+                <tr><td class="px-6 py-3">References complete</td><td class="px-6 py-3 text-center"><span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-brand-100 text-brand-700"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- File & document format -->
+        <section id="files">
+          <h2 class="font-serif text-2xl font-bold text-navy-900 mb-5 flex items-center gap-3"><span class="h-8 w-1.5 bg-brand-500 rounded"></span> File &amp; Document Format</h2>
+          <div class="grid sm:grid-cols-3 gap-4 mb-6">
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">Single file</div><div class="font-semibold text-navy-900">MS Word (.doc/.docx)</div></div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">PDF submissions</div><div class="font-semibold text-rose-600">Not accepted</div></div>
+            <div class="bg-white border border-slate-100 rounded-xl p-5 shadow-sm"><div class="text-xs uppercase tracking-wide text-slate-400 mb-1">File size</div><div class="font-semibold text-navy-900">Maximum 15 MB</div></div>
+          </div>
+          <div class="bg-white border border-slate-100 rounded-xl shadow-soft p-6 prose-journal text-slate-600">
+            <h3 class="font-semibold text-navy-900 mb-3">Required Document Structure</h3>
+            <ol class="space-y-3">
+              <li><strong class="text-navy-900">Title Page</strong> — full title (max 20 words), author names with affiliations, corresponding author contact, keywords (4–6).</li>
+              <li><strong class="text-navy-900">Abstract</strong> — English abstract 150–250 words, structured (Background, Methods, Results, Conclusion).</li>
+              <li><strong class="text-navy-900">Main Text</strong> — Introduction, Methods, Results, Discussion, Conclusion.</li>
+              <li><strong class="text-navy-900">References</strong> — APA 7th edition, minimum 15 references, include DOI for all sources.</li>
+              <li><strong class="text-navy-900">Tables &amp; Figures</strong> — numbered sequentially, captions included, high resolution (300 dpi minimum).</li>
+              <li><strong class="text-navy-900">Supplementary Materials</strong> (if applicable) — data files, additional figures.</li>
+            </ol>
+          </div>
+        </section>
+
+        <!-- Author info -->
+        <section id="author-info">
+          <h2 class="font-serif text-2xl font-bold text-navy-900 mb-5 flex items-center gap-3"><span class="h-8 w-1.5 bg-brand-500 rounded"></span> Author Information Required</h2>
+          <p class="text-slate-600 mb-4">For each author, provide:</p>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-white border border-slate-200 rounded-full px-4 py-2 text-sm text-navy-900 shadow-sm">Full name</span>
+            <span class="bg-white border border-slate-200 rounded-full px-4 py-2 text-sm text-navy-900 shadow-sm">Affiliation (institution, department, country)</span>
+            <span class="bg-white border border-slate-200 rounded-full px-4 py-2 text-sm text-navy-900 shadow-sm">Email address</span>
+            <span class="bg-white border border-slate-200 rounded-full px-4 py-2 text-sm text-navy-900 shadow-sm">ORCID ID (if available)</span>
+            <span class="bg-white border border-slate-200 rounded-full px-4 py-2 text-sm text-navy-900 shadow-sm">Corresponding author designation</span>
+          </div>
+          <div class="mt-5 bg-white border border-slate-100 rounded-xl p-5 shadow-sm">
+            <h3 class="font-semibold text-navy-900 mb-2">Language Requirements</h3>
+            <ul class="text-sm text-slate-600 space-y-1.5 list-disc pl-5">
+              <li>Primary language: <strong>English</strong></li>
+              <li>For non-English manuscripts: include an English title translation</li>
+              <li>Professional English editing is recommended for non-native authors</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- References -->
+        <section id="references">
+          <h2 class="font-serif text-2xl font-bold text-navy-900 mb-5 flex items-center gap-3"><span class="h-8 w-1.5 bg-brand-500 rounded"></span> Reference Format Examples</h2>
+          <div class="space-y-4">
+            <div class="bg-slate-900 rounded-xl p-5 text-slate-200">
+              <div class="text-xs uppercase tracking-wide text-brand-400 mb-2">Journal Article (APA 7th)</div>
+              <p class="font-mono text-sm leading-relaxed">Author, A. A., &amp; Author, B. B. (Year). Title of article. <em>Title of Journal, Volume</em>(Issue), pages. https://doi.org/xxxx</p>
+            </div>
+            <div class="bg-slate-900 rounded-xl p-5 text-slate-200">
+              <div class="text-xs uppercase tracking-wide text-brand-400 mb-2">Book (APA 7th)</div>
+              <p class="font-mono text-sm leading-relaxed">Author, A. A. (Year). <em>Title of book</em>. Publisher.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Submission requirements + Ethics -->
+        <section id="ethics" class="grid md:grid-cols-2 gap-6">
+          <div class="bg-white border border-slate-100 rounded-xl shadow-sm p-6">
+            <h2 class="font-serif text-xl font-bold text-navy-900 mb-4">Submission Requirements</h2>
+            <ul class="text-sm text-slate-600 space-y-2">
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Complete manuscript in MS Word</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Figures embedded or separate high-resolution files</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Tables in editable format</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Supplementary data (if applicable)</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Cover letter (optional but recommended)</li>
+            </ul>
+          </div>
+          <div class="bg-navy-900 rounded-xl shadow-sm p-6 text-white">
+            <h2 class="font-serif text-xl font-bold mb-4">Ethical Requirements</h2>
+            <ul class="text-sm text-navy-100 space-y-2">
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> No plagiarism (self or others)</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> No data fabrication</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> All sources acknowledged</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Conflict of interest disclosed</li>
+              <li class="flex gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Ethical approval for human/animal studies</li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="bg-brand-50 border border-brand-100 rounded-xl p-6 text-center">
+          <h3 class="font-serif text-xl font-bold text-navy-900">Ready to submit?</h3>
+          <p class="text-slate-600 mt-2">Follow these guidelines and submit your manuscript today.</p>
+          <a href="submission.html" class="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-white font-semibold px-6 py-3 rounded-md transition shadow mt-4">Go to Submission
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-navy-950 text-navy-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <img src="assets/img/logo.png" alt="CJIAR logo" class="h-11 w-11 object-contain" />
+          <div class="leading-tight"><div class="font-serif font-bold text-white">CJIAR</div><div class="text-[10px] text-navy-300 uppercase tracking-wider">Innovation &amp; Applied Research</div></div>
+        </div>
+        <p class="text-sm text-navy-300 leading-relaxed">A peer-reviewed, open-access, multidisciplinary journal published by the Centre for Innovation &amp; Research (CIR), Dhaka, Bangladesh.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="about.html" class="hover:text-brand-300 transition">About the Journal</a></li>
+          <li><a href="editorial-board.html" class="hover:text-brand-300 transition">Editorial Board</a></li>
+          <li><a href="aim-scope.html" class="hover:text-brand-300 transition">Aim &amp; Scope</a></li>
+          <li><a href="policies.html" class="hover:text-brand-300 transition">Journal Policies</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">For Authors</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="author-guidelines.html" class="hover:text-brand-300 transition">Author Guidelines</a></li>
+          <li><a href="submission.html" class="hover:text-brand-300 transition">Submit Manuscript</a></li>
+          <li><a href="fees.html" class="hover:text-brand-300 transition">Publication Fees</a></li>
+          <li><a href="peer-review.html" class="hover:text-brand-300 transition">Peer Review</a></li>
+          <li><a href="publication-ethics.html" class="hover:text-brand-300 transition">Publication Ethics</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Contact</h4>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg> <a href="mailto:submissions@cirjournal.org" class="hover:text-brand-300 transition">submissions@cirjournal.org</a></li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg> Dhaka, Bangladesh</li>
+          <li class="flex items-start gap-2"><svg class="w-4 h-4 text-brand-400 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg> www.cirjournal.org</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-navy-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-navy-300">
+        <span>&copy; <span id="year"></span> Centre for Innovation &amp; Research (CIR). All rights reserved.</span>
+        <span>CIR Journal of Innovation &amp; Applied Research (CJIAR) &middot; e-ISSN: Applied For</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('mobileToggle');
+    const menu = document.getElementById('mobileMenu');
+    const iconOpen = document.getElementById('iconOpen');
+    const iconClose = document.getElementById('iconClose');
+    toggle.addEventListener('click', () => { menu.classList.toggle('hidden'); iconOpen.classList.toggle('hidden'); iconClose.classList.toggle('hidden'); });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
