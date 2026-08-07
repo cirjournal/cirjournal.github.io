@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aim &amp; Scope | CIR Journal of Innovation &amp; Applied Research (CJIAR)</title>
-  <meta name="description" content="The aim and multidisciplinary scope of CJIAR — research areas, article types, publication frequency, and geographic focus." />
+  <title>Editor-in-Chief's Note | CIR Journal of Innovation &amp; Applied Research (CJIAR)</title>
+  <meta name="description" content="A welcome message from the Editor-in-Chief of CJIAR, Brigadier General Md. Anwar Shafique (Retd.), introducing the inaugural issue." />
   <link rel="icon" type="image/png" href="assets/img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,12 +26,17 @@
     .nav-link { position: relative; }
     .nav-link::after { content:''; position:absolute; left:0; bottom:-4px; height:2px; width:0; background:#33bdba; transition:width .25s ease; }
     .nav-link:hover::after, .nav-link.active::after { width:100%; }
-    .prose-journal ol { list-style:decimal; padding-left:1.25rem; }
-    .prose-journal ol li { margin-bottom:.5rem; }
+    .gradient-text { background:linear-gradient(90deg,#33bdba,#67d6d1); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .prose-journal p { margin-bottom:1rem; }
+    .prose-journal ul { list-style:disc; padding-left:1.25rem; margin-bottom:1rem; }
+    .prose-journal ul li { margin-bottom:.35rem; }
+    .prose-journal ol { list-style:decimal; padding-left:1.25rem; margin-bottom:1rem; }
+    .prose-journal ol li { margin-bottom:.35rem; }
   </style>
 </head>
 <body class="bg-slate-50 text-slate-700 font-sans antialiased">
 
+  <!-- TOP UTILITY BAR -->
   <div class="bg-navy-950 text-navy-100 text-xs">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-10 flex items-center justify-between">
       <div class="flex items-center gap-4">
@@ -46,6 +51,7 @@
     </div>
   </div>
 
+  <!-- HEADER / NAV -->
   <header class="bg-navy-900 text-white sticky top-0 z-50 shadow-lg shadow-navy-950/20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
@@ -59,7 +65,7 @@
         <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
           <a href="index.html" class="nav-link text-navy-100 hover:text-white">Home</a>
           <div class="relative group">
-            <button class="nav-link text-navy-100 hover:text-white inline-flex items-center gap-1">About
+            <button class="nav-link active text-white inline-flex items-center gap-1">About
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
             </button>
             <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
@@ -70,7 +76,7 @@
             </div>
           </div>
           <a href="editorial-board.html" class="nav-link text-navy-100 hover:text-white">Editorial Board</a>
-          <a href="aim-scope.html" class="nav-link active text-white">Aim &amp; Scope</a>
+          <a href="aim-scope.html" class="nav-link text-navy-100 hover:text-white">Aim &amp; Scope</a>
           <div class="relative group">
             <button class="nav-link text-navy-100 hover:text-white inline-flex items-center gap-1">For Authors
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
@@ -111,9 +117,9 @@
         <a href="index.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Home</a>
         <div class="px-3 pt-3 pb-1 text-[11px] uppercase tracking-wider text-brand-300">About</div>
         <a href="about.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">About the Journal</a>
-        <a href="editor-note.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Editor-in-Chief's Note</a>
+        <a href="editor-note.html" class="block px-3 py-2 rounded-md text-white bg-navy-800">Editor-in-Chief's Note</a>
         <a href="editorial-board.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Editorial Board</a>
-        <a href="aim-scope.html" class="block px-3 py-2 rounded-md text-white bg-navy-800">Aim &amp; Scope</a>
+        <a href="aim-scope.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Aim &amp; Scope</a>
         <div class="px-3 pt-3 pb-1 text-[11px] uppercase tracking-wider text-brand-300">For Authors</div>
         <a href="author-guidelines.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Author Guidelines</a>
         <a href="submission.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Submit Manuscript</a>
@@ -134,106 +140,59 @@
       <nav class="text-sm text-navy-200 mb-3 flex items-center gap-2">
         <a href="index.html" class="hover:text-brand-300 transition">Home</a>
         <svg class="w-3.5 h-3.5 text-navy-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        <span class="text-brand-300">Aim &amp; Scope</span>
+        <a href="about.html" class="hover:text-brand-300 transition">About</a>
+        <svg class="w-3.5 h-3.5 text-navy-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <span class="text-brand-300">Editor-in-Chief's Note</span>
       </nav>
-      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-white">Aim &amp; Scope</h1>
-      <p class="text-navy-100 mt-3 max-w-2xl">The multidisciplinary reach of CJIAR and the types of research we publish.</p>
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-white">Editor-in-Chief's Note</h1>
+      <p class="text-navy-100 mt-3 max-w-2xl">Welcome to the Inaugural Issue of the CIR Journal of Innovation &amp; Applied Research (CJIAR).</p>
     </div>
   </section>
-
+  <!-- CONTENT -->
   <main class="py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl shadow-soft border border-slate-100 p-8 sm:p-12">
 
-      <!-- Aim -->
-      <section class="max-w-4xl">
-        <div class="flex items-center gap-3 mb-6">
-          <span class="h-1 w-10 bg-brand-500 rounded"></span>
-          <h2 class="font-serif text-2xl font-bold text-navy-900">Our Aim</h2>
-        </div>
-        <p class="text-slate-600 mb-5">The <strong>CIR Journal of Innovation &amp; Applied Research</strong> aims to:</p>
-        <div class="prose-journal text-slate-600">
-          <ol class="space-y-3">
-            <li>Publish high-quality, original research on innovation and applied sciences and application-oriented research that contributes to academic advancement and practical problem-solving.</li>
-            <li>Provide an international forum for academic and industrial researchers.</li>
-            <li>Promote state-of-the-art research in innovation and applied technology.</li>
-            <li>Facilitate knowledge exchange between academia and industry.</li>
-            <li>Support research development in Bangladesh and globally.</li>
-          </ol>
-        </div>
-      </section>
-
-      <!-- Scope table -->
-      <section>
-        <div class="flex items-center gap-3 mb-6">
-          <span class="h-1 w-10 bg-brand-500 rounded"></span>
-          <h2 class="font-serif text-2xl font-bold text-navy-900">Scope — Primary Areas</h2>
-        </div>
-        <p class="text-slate-600 mb-6">The journal covers multidisciplinary topics including:</p>
-        <div class="bg-white border border-slate-100 rounded-xl shadow-soft overflow-hidden">
-          <div class="overflow-x-auto">
-            <table class="min-w-full text-sm">
-              <thead>
-                <tr class="bg-navy-900 text-white text-left">
-                  <th class="px-6 py-4 font-semibold w-1/3">Category</th>
-                  <th class="px-6 py-4 font-semibold">Topics</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-slate-100 text-slate-600">
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Innovation Studies</td><td class="px-6 py-4">Innovation theory, management, policy, strategy, and any other field of Innovation Studies.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Applied Sciences</td><td class="px-6 py-4">Physics, chemistry, biology applications, agricultural sciences and applications, and any other field of Applied Sciences.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Engineering</td><td class="px-6 py-4">Mechanical, electrical, civil, software, industrial, and any other field of Engineering.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Technology</td><td class="px-6 py-4">IT, AI, digital transformation, emerging tech, and any other field of Technology.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Interdisciplinary</td><td class="px-6 py-4">Cross-field research, integrated studies, and any other interdisciplinary field.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Business &amp; Management</td><td class="px-6 py-4">Innovation management, entrepreneurship, marketing, finance, human resource management, commerce and technological integration.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Economics &amp; Development Studies</td><td class="px-6 py-4">Economic policy, sustainable development, international trade, development economics.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Engineering &amp; Technology</td><td class="px-6 py-4">Artificial intelligence, data science, cybersecurity, information systems, renewable energy.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Health Sciences</td><td class="px-6 py-4">Public health, healthcare innovation, medical education, pharmaceutical sciences.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Social Sciences &amp; Humanities</td><td class="px-6 py-4">Sociology, political science, public administration, education, communication studies.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Environmental Studies</td><td class="px-6 py-4">Climate change, environmental management, green technology, environmental applied research.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Agriculture &amp; Food Security</td><td class="px-6 py-4">Agricultural innovation, smart farming, food systems.</td></tr>
-                <tr class="hover:bg-brand-50/40"><td class="px-6 py-4 font-semibold text-navy-900">Multidisciplinary Research</td><td class="px-6 py-4">Interdisciplinary studies integrating multiple fields are strongly encouraged.</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <!-- Article types + Frequency -->
-      <section class="grid lg:grid-cols-2 gap-8">
-        <div>
-          <div class="flex items-center gap-3 mb-6">
-            <span class="h-1 w-10 bg-brand-500 rounded"></span>
-            <h2 class="font-serif text-2xl font-bold text-navy-900">Article Types Accepted</h2>
-          </div>
-          <div class="space-y-3">
-            <div class="flex items-center gap-4 bg-white border border-slate-100 rounded-lg p-4 shadow-sm"><span class="flex-shrink-0 h-9 w-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></span><div><h3 class="font-semibold text-navy-900 text-sm">Original Research Papers</h3><p class="text-xs text-slate-500">Primary research</p></div></div>
-            <div class="flex items-center gap-4 bg-white border border-slate-100 rounded-lg p-4 shadow-sm"><span class="flex-shrink-0 h-9 w-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></span><div><h3 class="font-semibold text-navy-900 text-sm">Review Articles</h3><p class="text-xs text-slate-500">Systematic reviews</p></div></div>
-            <div class="flex items-center gap-4 bg-white border border-slate-100 rounded-lg p-4 shadow-sm"><span class="flex-shrink-0 h-9 w-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></span><div><h3 class="font-semibold text-navy-900 text-sm">Short Communications</h3><p class="text-xs text-slate-500">Brief findings</p></div></div>
-            <div class="flex items-center gap-4 bg-white border border-slate-100 rounded-lg p-4 shadow-sm"><span class="flex-shrink-0 h-9 w-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></span><div><h3 class="font-semibold text-navy-900 text-sm">Case Studies</h3><p class="text-xs text-slate-500">Applied examples</p></div></div>
-            <div class="flex items-center gap-4 bg-white border border-slate-100 rounded-lg p-4 shadow-sm"><span class="flex-shrink-0 h-9 w-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></span><div><h3 class="font-semibold text-navy-900 text-sm">Technical Notes</h3><p class="text-xs text-slate-500">Methodological innovations</p></div></div>
-            <div class="flex items-center gap-4 bg-white border border-slate-100 rounded-lg p-4 shadow-sm"><span class="flex-shrink-0 h-9 w-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></span><div><h3 class="font-semibold text-navy-900 text-sm">Perspective Papers</h3><p class="text-xs text-slate-500">Opinion / analysis</p></div></div>
+        <div class="flex items-center gap-5 pb-8 mb-8 border-b border-slate-100">
+          <img src="assets/img/editors/brig-gen-anwar.jpg" alt="Brigadier General Md. Anwar Shafique" class="h-20 w-20 rounded-full object-cover border-4 border-brand-100 shadow-sm">
+          <div>
+            <div class="font-serif text-lg font-bold text-navy-900">Brigadier General Md. Anwar Shafique (Retd.)</div>
+            <div class="text-sm text-slate-500">ndc, psc, PGD (USA), MSS, MBA, MPhil, PhD</div>
+            <div class="text-sm text-brand-600 font-medium mt-0.5">Editor-in-Chief, CJIAR</div>
           </div>
         </div>
 
-        <div class="space-y-6">
-          <div class="bg-navy-900 rounded-xl p-6 text-white">
-            <h2 class="font-serif text-xl font-bold mb-4">Publication Frequency</h2>
-            <ul class="space-y-3 text-sm text-navy-100">
-              <li class="flex gap-3"><svg class="w-5 h-5 text-brand-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg> <span><strong class="text-white">4 issues per year</strong> (Quarterly)</span></li>
-              <li class="flex gap-3"><svg class="w-5 h-5 text-brand-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> <span>Submission deadlines: <strong class="text-white">March 1, June 1, September 1, December 1</strong></span></li>
-              <li class="flex gap-3"><svg class="w-5 h-5 text-brand-400 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> <span>Publication timeline: <strong class="text-white">6–8 weeks</strong> after acceptance</span></li>
-            </ul>
-          </div>
-          <div class="bg-brand-600 rounded-xl p-6 text-white">
-            <h2 class="font-serif text-xl font-bold mb-4">Geographic Focus</h2>
-            <ul class="space-y-3 text-sm text-brand-50">
-              <li class="flex gap-3"><svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg> <span><strong class="text-white">Primary:</strong> Bangladesh (with emphasis on local research)</span></li>
-              <li class="flex gap-3"><svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> <span><strong class="text-white">Secondary:</strong> International (global submissions welcomed)</span></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <div class="prose-journal text-slate-600 leading-relaxed space-y-5">
+          <p>Welcome to the Inaugural Issue of the CIR Journal of Innovation &amp; Applied Research (CJIAR).</p>
 
+          <p>It is with immense pleasure and profound responsibility that I welcome you to the inaugural issue of the CIR Journal of Innovation &amp; Applied Research (CJIAR), the official peer-reviewed scholarly publication of the Centre for Innovation &amp; Research (CIR), Bangladesh.</p>
+
+          <p>In today's rapidly evolving world, innovation, scientific inquiry, and evidence-based decision-making have become the cornerstones of sustainable development and societal transformation. As nations confront increasingly complex economic, technological, environmental, healthcare, educational, and governance challenges, the need for high-quality interdisciplinary research has never been greater. CJIAR has been established in response to this need, providing a dynamic platform where scholars, researchers, professionals, policymakers, and industry leaders can exchange ideas, disseminate knowledge, and contribute meaningful solutions to contemporary global issues.</p>
+
+          <p>Our vision extends beyond the publication of academic papers. We aspire to cultivate a vibrant scholarly community that values intellectual integrity, innovation, collaboration, and the practical application of research. We believe that impactful research should not remain confined within academic institutions but should actively inform policy, strengthen industries, improve public services, and enhance the quality of life for communities around the world.</p>
+
+          <p>CJIAR is an international, open-access, multidisciplinary journal committed to publishing original, high-quality, and ethically conducted research across a broad spectrum of disciplines, including business and management, economics, engineering, information technology, artificial intelligence, health sciences, environmental studies, agriculture, education, public policy, social sciences, and other emerging fields. We particularly encourage interdisciplinary research that bridges traditional academic boundaries and addresses real-world challenges through innovative approaches.</p>
+
+          <p>Maintaining the highest standards of scholarly publishing is central to our mission. Every manuscript submitted to CJIAR undergoes a rigorous double-blind peer-review process conducted by experienced reviewers and subject experts. We adhere to internationally accepted publication ethics and strive to ensure fairness, transparency, confidentiality, and academic integrity throughout the editorial process. Originality, methodological rigor, ethical compliance, and practical significance remain the primary criteria for publication.</p>
+
+          <p>As Editor-in-Chief, I extend my sincere appreciation to our distinguished Editorial Board, Advisory Board members, reviewers, authors, and the dedicated editorial team whose expertise, commitment, and professionalism have made the launch of this journal possible. Their collective efforts reflect our shared commitment to promoting excellence in research and advancing scholarly communication at both national and international levels.</p>
+
+          <p>I also warmly invite researchers, academics, practitioners, graduate scholars, and professionals from Bangladesh and around the world to contribute their original research to future issues of CJIAR. Through your valuable contributions, we hope to foster international collaboration, encourage interdisciplinary dialogue, and create a lasting repository of knowledge that benefits academia, industry, government, and society alike.</p>
+
+          <p>The Centre for Innovation &amp; Research (CIR) remains steadfast in its commitment to supporting research excellence, nurturing innovation, and strengthening global academic partnerships. We envision CJIAR evolving into a widely recognized international journal indexed in leading academic databases, serving as a trusted source of high-quality scholarly research and innovation.</p>
+
+          <p>On behalf of the entire editorial team, I thank you for your interest in the CIR Journal of Innovation &amp; Applied Research. We look forward to your continued support, valuable contributions, and active engagement in this shared journey toward advancing knowledge, fostering innovation, and creating meaningful impact through research.</p>
+
+          <p>Together, let us inspire discovery, encourage innovation, and shape a better future through excellence in research.</p>
+        </div>
+
+        <div class="mt-10 pt-8 border-t border-slate-100">
+          <p class="font-serif font-bold text-navy-900">Brigadier General Md. Anwar Shafique (Retd.), ndc, psc, PGD (USA), MSS, MBA, MPhil, PhD</p>
+          <p class="text-sm text-slate-600 mt-1">Editor-in-Chief<br>CIR Journal of Innovation &amp; Applied Research (CJIAR)</p>
+          <p class="text-sm text-slate-600 mt-1">Lead Consultant<br>Centre for Innovation &amp; Research (CIR), Bangladesh</p>
+        </div>
+
+      </div>
     </div>
   </main>
 

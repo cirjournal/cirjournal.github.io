@@ -58,7 +58,17 @@
         </a>
         <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
           <a href="index.html" class="nav-link text-navy-100 hover:text-white">Home</a>
-          <a href="about.html" class="nav-link text-navy-100 hover:text-white">About</a>
+          <div class="relative group">
+            <button class="nav-link text-navy-100 hover:text-white inline-flex items-center gap-1">About
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+              <div class="w-56 bg-white text-slate-700 rounded-lg shadow-soft border border-slate-100 py-2">
+                <a href="about.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">About the Journal</a>
+                <a href="editor-note.html" class="block px-4 py-2 text-sm hover:bg-brand-50 hover:text-brand-700">Editor-in-Chief's Note</a>
+              </div>
+            </div>
+          </div>
           <a href="editorial-board.html" class="nav-link active text-white">Editorial Board</a>
           <a href="aim-scope.html" class="nav-link text-navy-100 hover:text-white">Aim &amp; Scope</a>
           <div class="relative group">
@@ -99,7 +109,9 @@
     <div id="mobileMenu" class="lg:hidden hidden border-t border-navy-800 bg-navy-900">
       <div class="px-4 py-3 space-y-1 text-sm">
         <a href="index.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Home</a>
-        <a href="about.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">About</a>
+        <div class="px-3 pt-3 pb-1 text-[11px] uppercase tracking-wider text-brand-300">About</div>
+        <a href="about.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">About the Journal</a>
+        <a href="editor-note.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Editor-in-Chief's Note</a>
         <a href="editorial-board.html" class="block px-3 py-2 rounded-md text-white bg-navy-800">Editorial Board</a>
         <a href="aim-scope.html" class="block px-3 py-2 rounded-md text-navy-100 hover:bg-navy-800">Aim &amp; Scope</a>
         <div class="px-3 pt-3 pb-1 text-[11px] uppercase tracking-wider text-brand-300">For Authors</div>
