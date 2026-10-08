@@ -1,0 +1,159 @@
+{
+  "journal": {
+    "title": "CIR Journal of Innovation & Applied Research",
+    "abbreviation": "CJIAR",
+    "publisher": "Centre for Innovation & Research (CIR)",
+    "location": "Dhaka, Bangladesh",
+    "eissn": "Pending",
+    "access": "Open Access",
+    "peerReview": "Double-Blind",
+    "medium": "Online",
+    "language": "English"
+  },
+  "issues": [
+    {
+      "id": "v1-i1",
+      "volume": 1,
+      "issue": 1,
+      "year": 2026,
+      "month": "December",
+      "label": "Volume 1 Issue 1, December 2026",
+      "description": "Inaugural Issue",
+      "current": true,
+      "folder": "Archive/Volume1-Issue1",
+      "cover": {
+        "image": "assets/img/covers/v1-i1.jpg",
+        "pdf": "Archive/Volume1-Issue1/1. Cover page.pdf"
+      },
+      "frontMatter": [
+        {
+          "id": "v1-i1-cover",
+          "type": "cover",
+          "title": "Cover Page",
+          "pages": null,
+          "pdf": "Archive/Volume1-Issue1/1. Cover page.pdf"
+        },
+        {
+          "id": "v1-i1-editorial",
+          "type": "editorial",
+          "title": "Editorial Notes: Welcome to the Inaugural Issue",
+          "authors": [
+            { "name": "Brigadier General Md. Anwar Shafique (Retd.)", "role": "Editor-in-Chief" }
+          ],
+          "pages": { "start": 1, "end": 1 },
+          "pdf": "Archive/Volume1-Issue1/2. Editorial Notes.pdf"
+        },
+        {
+          "id": "v1-i1-board-1",
+          "type": "editorial-board",
+          "title": "Editorial and Reviewers' Board (Part 1)",
+          "pages": { "start": 3, "end": 3 },
+          "pdf": "Archive/Volume1-Issue1/3. Editorial Team.pdf"
+        },
+        {
+          "id": "v1-i1-board-2",
+          "type": "editorial-board",
+          "title": "Editorial and Reviewers' Board (Part 2)",
+          "pages": { "start": 4, "end": 4 },
+          "pdf": "Archive/Volume1-Issue1/3. Editorial Team - 2.pdf"
+        },
+        {
+          "id": "v1-i1-toc",
+          "type": "toc",
+          "title": "Table of Contents",
+          "pages": null,
+          "pdf": "Archive/Volume1-Issue1/4. Table of content.pdf"
+        }
+      ],
+      "articles": [
+        {
+          "id": "v1-i1-a1",
+          "number": 1,
+          "type": "Research Article",
+          "title": "Implications of Artificial Intelligence on Digital Marketing and Providing Value to Customers in Bangladesh Perspectives",
+          "authors": [
+            { "name": "Mohammad Samin Ihsan", "affiliation": "Researcher, Dhaka", "email": null, "corresponding": true }
+          ],
+          "pages": { "start": 5, "end": 17, "count": 13 },
+          "received": "2026-06-08",
+          "accepted": "2026-08-04",
+          "keywords": ["Artificial Intelligence", "Perceived Value", "Customer Engagement", "Customer Loyalty", "Digital Marketing", "Customer Satisfaction"],
+          "jel": ["M30", "M31", "M51", "L10", "L81", "O33"],
+          "abstract": "Businesses are leveraging Artificial Intelligence (AI) to create a better understanding of their consumers, craft marketing plans, and develop products and services. The internet connectivity, social media adoption, mobile financial services and digital commerce are growing at a rapid pace and have paved a special atmosphere for digital marketing with the help of AI in Bangladesh. The study provides a snapshot of the use of machine learning, natural language processing, and predictive analytics to provide personalized consumer experience and how technologies such as these can be leveraged by businesses for the best possible return on engagement marketing investments. This research findings the role of AI in digital marketing strategies and its value proposition for consumers. In a world where the digital landscape is constantly changing, companies need to evolve their marketing methods to meet consumers in the ways they are using now. The probe uses a mixed-method research approach, which comprises a quantitative examination in the form of descriptive statistics and a quantitative examination in the form of correlation analysis in addition to regression analysis. The study reveals strong linkages between the use of AI marketing strategies and important customer engagement, satisfaction and loyalty metrics. The findings offer a complex and nuanced view of the opportunities and risks AI brings about and help companies make well-informed decisions regarding their marketing investments in today's digital world. This study concludes that enterprises who use AI will get ahead in the race and those who do not and businesses must carve out a niche by offering a unique experience for their customers and ensuring sustainable growth through savvy use of AI.",
+          "pdf": "Archive/Volume1-Issue1/5. Implications of Artificial Intelligence on Digital Marketing-1-13.pdf",
+          "fileSizeBytes": 3531618
+        },
+        {
+          "id": "v1-i1-a2",
+          "number": 2,
+          "type": "Research Article",
+          "title": "Indo-Pacific Geopolitical Dynamics: Impacts and Implications for Bangladesh",
+          "authors": [
+            { "name": "Mohammad Imam Hasan Azad", "affiliation": "Captain, Bangladesh Navy", "email": "mihazad@yahoo.com", "corresponding": false },
+            { "name": "Liton Chandro Sarkar", "affiliation": "Deputy Director, Bangladesh University of Professionals", "email": "liton@bup.edu.bd", "corresponding": false }
+          ],
+          "pages": { "start": 19, "end": 26, "count": 8 },
+          "received": "2026-06-10",
+          "accepted": "2026-08-07",
+          "keywords": ["Indo-Pacific", "Geopolitics", "Power dynamics", "Security concerns", "Economic interests", "Bangladesh"],
+          "jel": ["M30", "M31", "M51", "L10", "L81", "O33"],
+          "abstract": "The geopolitical landscape of the Indo-Pacific is crucial for global geopolitics, regional stability, and Bangladesh's strategic choices. This study delves into the understanding geopolitical landscape of the Indo-Pacific region and its profound implications for Bangladesh. Acknowledging the intricate power dynamics, security challenges, and economic opportunities, this research navigates through a comprehensive analysis spanning multiple sections. Commencing with an acknowledgment of the complex nature of the Indo-Pacific, the study progresses through in-depth explorations. This research follows a qualitative approach, incorporating both the synthesis of secondary information and the collection of primary data. In the context of this study on the geopolitical scenario in the Indo-Pacific, examine the Bangladesh's position in the evolving Indo-Pacific geopolitical Dynamics in strategic choices level and its Implications for Bangladesh, qualitative data was examined to derive conclusions pertaining to the research inquiries. A total of 152 respondents has been selected for this research from Senior Policy Makers, Security Specialists, Academician, Economists, Law enforcing agencies, etc. It encapsulates several perspectives on Bangladesh's reactions to changing geopolitical dynamics, indicating a relatively beneficial effect. This study highlights Bangladesh's crucial position in the intricate geopolitical landscape of the Indo-Pacific. The research concludes with pragmatic recommendations that delineate sequential tactics for the progress of Bangladesh. Strategic priorities include enhancing connectivity, bolstering maritime security, diversifying alliances, and improving multilateral participation.",
+          "pdf": "Archive/Volume1-Issue1/6. Indo-Pacific Geopolitical Dynamics-1-8.pdf",
+          "fileSizeBytes": 3209619
+        },
+        {
+          "id": "v1-i1-a3",
+          "number": 3,
+          "type": "Research Article",
+          "title": "Life Insurance as an Entrepreneurial Risk-Management Instrument: Evidence and Strategic Implications from Bangladesh",
+          "authors": [
+            { "name": "Brigadier General Md Anwar Shafique (Retd)", "affiliation": "Managing Director & Lead Consultant, Centre for Innovation & Research (CIR), Dhaka", "email": "anwar3236@yahoo.com", "corresponding": true }
+          ],
+          "pages": { "start": 21, "end": 34, "count": 14 },
+          "received": "2026-06-03",
+          "accepted": "2026-07-30",
+          "keywords": ["Life insurance", "Entrepreneurship", "MSMEs", "Financial resilience", "Women entrepreneurs", "Bangladesh", "Family welfare"],
+          "jel": ["L26", "G22", "Z13"],
+          "abstract": "Entrepreneurs combine personal wealth, household income, managerial capacity and business capital in ways that make their families and enterprises unusually sensitive to death, disability, serious illness and income interruption. This article examines how life insurance can reduce those vulnerabilities and support entrepreneurial resilience in Bangladesh. It was an integrative review and a qualitative single-case analysis based on an existing life insurance related policy and practice, academic research which practice in Bangladesh and Astha Life Insurance Company Limited Bangladesh taken up a case study organization for research purpose. An integrative review is appropriate because the research problem crosses several bodies of knowledge: entrepreneurship, household finance, insurance, employee benefits, gender and financial inclusion. The analysis identifies five principal pathways through which life insurance can create value: replacing lost household income; preserving business continuity and loan repayment capacity; protecting human capital and employee welfare; strengthening the resilience of women entrepreneurs; and widening access through digital service and bancassurance. The case analysis also shows that product credibility depends on transparent policy wording, reliable claim settlement, suitable premiums, accessible distribution and sustained customer communication. Life insurance alone cannot protect an enterprise against every operational, property or market risk, but it can form a central layer in a wider risk-management. The study concludes that appropriately designed life insurance can convert uncertain, potentially catastrophic personal events into manageable financial obligations, thereby supporting household security, enterprise survival and inclusive economic development.",
+          "pdf": "Archive/Volume1-Issue1/7. Life Insurance as an Entrepreneurial Risk-Management Instrument-1-14.pdf",
+          "fileSizeBytes": 3265139
+        },
+        {
+          "id": "v1-i1-a4",
+          "number": 4,
+          "type": "Research Article",
+          "title": "Ability to Decipher Emotional Expressions in Typically Developing Bangladeshi 3-7 Years-Olds",
+          "authors": [
+            { "name": "Jannatul Ferdous Joti", "affiliation": "Intern Audiologist and Speech-Language Pathologist, Dept. of Audiology and Speech-Language Pathology, Proyash Institute of Special Education and Research (PISER), Dhaka, Bangladesh", "email": null, "corresponding": false },
+            { "name": "Md. Asaduzzaman", "affiliation": "Assistant Professor, Dept. of Audiology and Speech-Language Pathology, Proyash Institute of Special Education and Research (PISER), Dhaka, Bangladesh", "email": "asad.cdling@gmail.com", "corresponding": false }
+          ],
+          "pages": { "start": 35, "end": 46, "count": 12 },
+          "received": "2026-06-10",
+          "accepted": "2026-08-07",
+          "keywords": ["Emotional Recognition", "Bangladeshi Children", "Early Childhood Development", "Socio-cultural Influence", "Emotional Intelligence"],
+          "jel": ["I10", "I12", "I18", "I30", "I31"],
+          "abstract": "This study examines the emotional recognition abilities of typically developing Bangladeshi children aged 3 to 7, addressing a gap in understanding emotional development within Bangladesh's collectivist cultural framework. The primary objective was to assess children's capacity to decode emotional expressions across various tasks. A purposive sample of 100 children (58 females, 42 males) from four mainstream schools participated in this experimental, cross-sectional study. Data were collected using a culturally tailored tool comprising eight emotional recognition tasks: Personal Narrative, Picture Identification, Pretend Play, Emoji Identification, Coloring Emoji Identification, Sally-Anne False Belief, Emotional Game, and Emotional Sorting. Performance was measured using a scoring system with a maximum total of 40 points. Results indicated that children demonstrated advanced emotional recognition skills, with an average score of 38.65/40, reflecting robust emotional understanding. These findings highlight the role of cultural influences in emotional recognition and underscore the need for culturally adapted emotional literacy programs to enhance socio-emotional development in Bangladeshi children.",
+          "pdf": "Archive/Volume1-Issue1/8. Ability to Decipher Emotional Expressions in Typically Developing.pdf",
+          "fileSizeBytes": 3093644
+        },
+        {
+          "id": "v1-i1-a5",
+          "number": 5,
+          "type": "Research Article",
+          "title": "Effect of Budgetary Control System on Budgetary Performance of Managers: Evidence from Bangladeshi Manufacturing Firms",
+          "authors": [
+            { "name": "Liton Chandra Sarkar", "affiliation": "Deputy Director, Bangladesh University of Professionals, Dhaka", "email": "liton@bup.edu.bd", "corresponding": true }
+          ],
+          "pages": { "start": 47, "end": 61, "count": 17 },
+          "received": "2026-06-08",
+          "accepted": "2026-08-04",
+          "keywords": ["Budgetary", "Budgetary control", "Budgetary performance", "Managerial performance and family welfare"],
+          "jel": ["G30", "G31", "L25", "L60", "M12", "M51"],
+          "abstract": "The budgetary system is a dominant management accounting control mechanism in most companies worldwide with the vital functions of planning, controlling, and evaluating managerial performance. This research attempts to investigate the impact of the budgetary system configured by budgetary participation, budgetary goal difficulty, budgetary variance analysis, budgetary performance evaluation, and budgetary reforecasting on managers' budget performance. Responses were collected from 200 managers from different manufacturing firms in Bangladesh through a pretested questionnaire. The managers were responsible for forecasting, preparing, monitoring, and analyzing the variance of budgets. Collected responses were analyzed using multiple regression techniques. The results show that budgetary participation, budgetary variance analysis, budgetary performance evaluation, and budgetary reforecasts have significant positive effects on the budgetary performance of managers. Budgetary goal difficulty has a non-significant negative influence on the budgetary performance of managers. The research findings will help top managers construct a budget system with appropriate budgetary variables that can enhance the budget performance of managers to achieve the financial goals of their firms.",
+          "pdf": "Archive/Volume1-Issue1/9. Effect of Budgetary Control System on Budgetary Performance of Managers-1-17.pdf",
+          "fileSizeBytes": 4018987
+        }
+      ]
+    }
+  ]
+}

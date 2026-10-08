@@ -143,82 +143,21 @@
     </div>
   </section>
 
-  <!-- SUB NAV: 2026 ISSUE -->
+  <!-- SUB NAV: ISSUES (filled from Archive/archive.json) -->
   <div class="bg-navy-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <span class="inline-block text-white text-sm font-semibold tracking-wide uppercase py-3">2026 Issue</span>
-    </div>
+    <nav id="issueNav" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex overflow-x-auto scroll-mt-20" aria-label="Issues">
+      <span class="inline-block text-white text-sm font-semibold tracking-wide uppercase py-3">Issues</span>
+    </nav>
   </div>
 
   <main class="py-16">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-      <div class="flex items-center justify-between flex-wrap gap-3 mb-2">
-        <h2 class="font-serif text-2xl font-bold text-navy-900">Volume 1, Issue 1 &middot; April&ndash;June 2026</h2>
-        <span class="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-brand-700 bg-brand-50 px-3 py-1 rounded-full">Current Issue</span>
+      <!-- Issue content is rendered by assets/js/archive.js from Archive/archive.json -->
+      <div id="archiveRoot" aria-live="polite">
+        <p class="text-center text-slate-400 py-16">Loading archive&hellip;</p>
       </div>
-      <p class="text-slate-500 text-sm mb-8">CIR Journal of Innovation &amp; Applied Research</p>
-
-      <div class="grid md:grid-cols-2 gap-x-8 gap-y-3 bg-white border border-slate-100 rounded-2xl shadow-soft p-8 mb-10 text-sm">
-        <div class="flex justify-between border-b border-slate-100 py-2"><span class="text-slate-500">Volume</span><span class="font-medium text-navy-900">1, Issue 1, April&ndash;June 2026</span></div>
-        <div class="flex justify-between border-b border-slate-100 py-2"><span class="text-slate-500">Published by</span><span class="font-medium text-navy-900">Centre for Innovation and Research (CIR)</span></div>
-        <div class="flex justify-between border-b border-slate-100 py-2"><span class="text-slate-500">Country</span><span class="font-medium text-navy-900">Bangladesh</span></div>
-        <div class="flex justify-between border-b border-slate-100 py-2"><span class="text-slate-500">Medium</span><span class="font-medium text-navy-900">Online</span></div>
-        <div class="flex justify-between border-b border-slate-100 py-2"><span class="text-slate-500">Frequency</span><span class="font-medium text-navy-900">Quarterly</span></div>
-        <div class="flex justify-between border-b border-slate-100 py-2"><span class="text-slate-500">Status</span><span class="font-medium text-navy-900">ISSN request pending</span></div>
-      </div>
-
-      <h3 class="font-serif text-xl font-bold text-navy-900 mb-4">Articles</h3>
-      <div class="overflow-x-auto bg-white border border-slate-100 rounded-2xl shadow-soft">
-        <table class="w-full text-sm text-left">
-          <thead class="bg-navy-900 text-white">
-            <tr>
-              <th class="px-5 py-3 font-semibold w-14">No.</th>
-              <th class="px-5 py-3 font-semibold">Article Title</th>
-              <th class="px-5 py-3 font-semibold">Author</th>
-              <th class="px-5 py-3 font-semibold w-24">Page</th>
-              <th class="px-5 py-3 font-semibold w-24">PDF</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-100">
-            <tr class="hover:bg-slate-50">
-              <td class="px-5 py-4 text-slate-500">1</td>
-              <td class="px-5 py-4 text-navy-900 font-medium">&mdash;</td>
-              <td class="px-5 py-4 text-slate-600">&mdash;</td>
-              <td class="px-5 py-4 text-slate-500">1&ndash;10</td>
-              <td class="px-5 py-4"><span class="inline-flex items-center gap-1 text-xs text-slate-400 italic">Coming soon</span></td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="px-5 py-4 text-slate-500">2</td>
-              <td class="px-5 py-4 text-navy-900 font-medium">&mdash;</td>
-              <td class="px-5 py-4 text-slate-600">&mdash;</td>
-              <td class="px-5 py-4 text-slate-500">11&ndash;20</td>
-              <td class="px-5 py-4"><span class="inline-flex items-center gap-1 text-xs text-slate-400 italic">Coming soon</span></td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="px-5 py-4 text-slate-500">3</td>
-              <td class="px-5 py-4 text-navy-900 font-medium">&mdash;</td>
-              <td class="px-5 py-4 text-slate-600">&mdash;</td>
-              <td class="px-5 py-4 text-slate-500">21&ndash;32</td>
-              <td class="px-5 py-4"><span class="inline-flex items-center gap-1 text-xs text-slate-400 italic">Coming soon</span></td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="px-5 py-4 text-slate-500">4</td>
-              <td class="px-5 py-4 text-navy-900 font-medium">&mdash;</td>
-              <td class="px-5 py-4 text-slate-600">&mdash;</td>
-              <td class="px-5 py-4 text-slate-500">33&ndash;42</td>
-              <td class="px-5 py-4"><span class="inline-flex items-center gap-1 text-xs text-slate-400 italic">Coming soon</span></td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="px-5 py-4 text-slate-500">5</td>
-              <td class="px-5 py-4 text-navy-900 font-medium">&mdash;</td>
-              <td class="px-5 py-4 text-slate-600">&mdash;</td>
-              <td class="px-5 py-4 text-slate-500">43&ndash;55</td>
-              <td class="px-5 py-4"><span class="inline-flex items-center gap-1 text-xs text-slate-400 italic">Coming soon</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <noscript><p class="text-center text-slate-600 py-8">Please enable JavaScript to browse the archive.</p></noscript>
 
     </div>
   </main>
@@ -284,5 +223,6 @@
     toggle.addEventListener('click', () => { menu.classList.toggle('hidden'); iconOpen.classList.toggle('hidden'); iconClose.classList.toggle('hidden'); });
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script src="assets/js/archive.js"></script>
 </body>
 </html>
