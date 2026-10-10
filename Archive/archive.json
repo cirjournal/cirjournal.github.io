@@ -38,7 +38,7 @@
           "type": "editorial",
           "title": "Editorial Notes: Welcome to the Inaugural Issue",
           "authors": [
-            { "name": "Brigadier General Md. Anwar Shafique (Retd.)", "role": "Editor-in-Chief" }
+            { "name": "Dr. Md Anwar Shafique", "role": "Editor-in-Chief" }
           ],
           "pages": { "start": 1, "end": 1 },
           "pdf": "Archive/Volume1-Issue1/2. Editorial Notes.pdf"
@@ -107,7 +107,7 @@
           "type": "Research Article",
           "title": "Life Insurance as an Entrepreneurial Risk-Management Instrument: Evidence and Strategic Implications from Bangladesh",
           "authors": [
-            { "name": "Brigadier General Md Anwar Shafique (Retd)", "affiliation": "Managing Director & Lead Consultant, Centre for Innovation & Research (CIR), Dhaka", "email": "anwar3236@yahoo.com", "corresponding": true }
+            { "name": "Dr. Md Anwar Shafique", "affiliation": "Managing Director & Lead Consultant, Centre for Innovation & Research (CIR), Dhaka", "email": "anwar3236@yahoo.com", "corresponding": true }
           ],
           "pages": { "start": 21, "end": 34, "count": 14 },
           "received": "2026-06-03",
